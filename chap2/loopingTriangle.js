@@ -6,7 +6,7 @@ for (var hashTaggy = "#"; hashTaggy.length <= 14; hashTaggy = hashTaggy + "#")
 // jerrysypkens.com
 
 /*
-Solution: 
+Output: 
 #
 ##
 ###
