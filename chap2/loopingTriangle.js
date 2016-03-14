@@ -4,3 +4,21 @@ for (var hashTaggy = "#"; hashTaggy.length <= 14; hashTaggy = hashTaggy + "#")
     console.log(hashTaggy);
 
 // jerrysypkens.com
+
+/*
+Solution: 
+#
+##
+###
+####
+#####
+######
+#######
+########
+#########
+##########
+###########
+############
+#############
+##############
+*/ 
