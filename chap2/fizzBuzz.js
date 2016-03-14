@@ -6,117 +6,117 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 
 When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 */
-
-for (var num = 1; num <= 100; num++)
-    if (num % 3 == 0)
-        console.log(num + " FIZZ");
-    else if (num % 5 == 0)
-        console.log(num + " Buzz");
-    else 
-        console.log(num);
-
+   
+for (var n = 1; n <= 100; n++) {
+  var output = "";
+  if (n % 3 == 0)
+    output += "fizzzzzzzzz";
+  if (n % 5 == 0)
+    output += "buzzzzzzzzz";
+  console.log(output || n);
+}
 
 /* 
 Output: 
 1
 2
-3 FIZZ
+fizzzzzzzzz
 4
-5 Buzz
-6 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 7
 8
-9 FIZZ
-10 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 11
-12 FIZZ
+fizzzzzzzzz
 13
 14
-15 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 16
 17
-18 FIZZ
+fizzzzzzzzz
 19
-20 Buzz
-21 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 22
 23
-24 FIZZ
-25 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 26
-27 FIZZ
+fizzzzzzzzz
 28
 29
-30 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 31
 32
-33 FIZZ
+fizzzzzzzzz
 34
-35 Buzz
-36 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 37
 38
-39 FIZZ
-40 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 41
-42 FIZZ
+fizzzzzzzzz
 43
 44
-45 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 46
 47
-48 FIZZ
+fizzzzzzzzz
 49
-50 Buzz
-51 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 52
 53
-54 FIZZ
-55 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 56
-57 FIZZ
+fizzzzzzzzz
 58
 59
-60 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 61
 62
-63 FIZZ
+fizzzzzzzzz
 64
-65 Buzz
-66 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 67
 68
-69 FIZZ
-70 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 71
-72 FIZZ
+fizzzzzzzzz
 73
 74
-75 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 76
 77
-78 FIZZ
+fizzzzzzzzz
 79
-80 Buzz
-81 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 82
 83
-84 FIZZ
-85 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 86
-87 FIZZ
+fizzzzzzzzz
 88
 89
-90 FIZZ
+fizzzzzzzzzbuzzzzzzzzz
 91
 92
-93 FIZZ
+fizzzzzzzzz
 94
-95 Buzz
-96 FIZZ
+buzzzzzzzzz
+fizzzzzzzzz
 97
 98
-99 FIZZ
-100 Buzz
+fizzzzzzzzz
+buzzzzzzzzz
 */
         
