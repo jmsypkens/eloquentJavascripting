@@ -5,9 +5,9 @@ Write a program that creates a string that represents an 8×8 grid, using newlin
 
 var theSize = Number(prompt("Pick the size of the chessboard:", ""));
 var board = "";
-for (var n = 0; n <= theSize; n++ ) {
-    for (var y = 0; y <= theSize; y++) {
-        if ((n+y) % 2 == 0)
+for (var n = 0; n < theSize; n++ ) {
+    for (var y = 0; y < theSize; y++) {
+        if ((n + y) % 2 == 0)
             board += " ";
         else
             board += "#";
